@@ -1,85 +1,87 @@
+[English](README.md) | [简体中文](README.zh-CN.md)
+
 # Luna Glance Feedback
 
-本仓库是 Luna Glance 的公开反馈与需求收集仓库。
+This repository is the public feedback and feature request tracker for Luna Glance.
 
-Luna Glance 是面向《原神》玩家的非官方“月谕圣牌”交换工具，用于匿名发布、查找并匹配卡牌交换需求。项目与米哈游、HoYoverse 无关。
+Luna Glance is an unofficial Lunar Arcanum card exchange tool for Genshin Impact players. It lets players anonymously publish, find, and match card exchange requests. The project is not affiliated with miHoYo or HoYoverse.
 
-网站地址：<https://luna.mihoyo.cv/>
+Website: <https://luna.mihoyo.cv/>
 
-## 仓库职责
+## Repository Scope
 
-- 收集可复现的功能缺陷、界面问题和可用性反馈。
-- 收集与产品目标一致的新功能建议和改进方案。
-- 记录已确认问题、讨论范围和处理进度。
-- 不存放 Luna Glance 的源代码、部署配置或生产数据。
+- Collect reproducible functional defects, UI problems, and usability feedback.
+- Collect feature suggestions and improvements that align with the product goals.
+- Track confirmed issues, discussion scope, and progress.
+- Does not host Luna Glance source code, deployment configuration, or production data.
 
-开发、构建、部署和架构维护由项目维护者在内部进行，不在本仓库处理。
+Development, builds, deployment, and architecture maintenance are handled internally by the project maintainers and are outside the scope of this repository.
 
-## 产品能力
+## Product Capabilities
 
-- 按国服或国际服的服务器/区域查找卡牌交换需求。
-- 匿名发布“可提供”和“需要”的月谕圣牌及数量。
-- 在同一服务器/区域内计算候选匹配和完全匹配。
-- 仅在服务端确认当前有效匹配后展示对方游戏 UID。
-- 通过浏览器中的管理凭据编辑、暂停、续期、撤销或查找自己的交换需求。
-- 举报疑似滥用、错误或恶意的交换需求，并进入维护者复核流程。
-- 支持简体中文、繁体中文、英语、日语、韩语、俄语、德语和法语。
+- Find card exchange requests by server or region across CN and international servers.
+- Anonymously publish the Lunar Arcanum cards and quantities you can offer and need.
+- Calculate candidate matches and exact matches within the same server or region.
+- Reveal another player's in-game UID only after the server confirms a currently valid match.
+- Edit, pause, renew, revoke, or find your own exchange requests using the management credential stored in your browser.
+- Report suspected abusive, incorrect, or malicious exchange requests for maintainer review.
+- Support Simplified Chinese, Traditional Chinese, English, Japanese, Korean, Russian, German, and French.
 
-## 提交反馈
+## Submitting Feedback
 
-请先搜索现有 Issue，确认没有重复记录，再选择合适入口：
+Search existing issues first to make sure the problem or suggestion has not already been reported, then choose the appropriate form:
 
-- [提交缺陷反馈](https://github.com/BennettChina/luna-glance-feedback/issues/new?template=bug_report.yml)
-- [提交功能建议](https://github.com/BennettChina/luna-glance-feedback/issues/new?template=feature_request.yml)
+- [Submit a bug report](https://github.com/BennettChina/luna-glance-feedback/issues/new?template=bug_report.yml)
+- [Submit a feature request](https://github.com/BennettChina/luna-glance-feedback/issues/new?template=feature_request.yml)
 
-### 缺陷反馈建议包含
+### Bug Reports Should Include
 
-- 可复现的页面、功能或操作入口。
-- 复现步骤、实际结果和预期结果。
-- 发生时间、浏览器、设备、操作系统和当前语言。
-- 必要时提供经过脱敏的截图或录屏。
+- The reproducible page, feature, or action.
+- Reproduction steps, actual behavior, and expected behavior.
+- The time of occurrence, browser, device, operating system, and current language.
+- Redacted screenshots or screen recordings when necessary.
 
-### 功能建议建议说明
+### Feature Requests Should Explain
 
-- 当前遇到的用户问题，而不只是实现方案。
-- 期望达到的结果及典型使用场景。
-- 对现有玩家流程的影响。
-- 已知的替代方案或权衡。
+- The user problem you are facing, not only a proposed implementation.
+- The expected outcome and typical use cases.
+- How the change would affect existing player workflows.
+- Known alternatives or tradeoffs.
 
-## 隐私与安全
+## Privacy and Security
 
-GitHub Issue 是公开内容。提交前请删除或遮挡所有敏感信息，包括但不限于：
+GitHub issues are public. Before submitting, remove or obscure all sensitive information, including but not limited to:
 
-- 游戏 UID、账号信息或其他个人身份信息。
-- 交换需求管理链接、管理凭据或浏览器本地存储内容。
-- Passkey、恢复码、Cookie、会话令牌或 Turnstile 令牌。
-- Cloudflare、GitHub 或其他服务的密钥、Token 和完整请求头。
-- 未公开的安全漏洞细节或可直接利用的复现步骤。
+- Game UIDs, account information, or other personally identifiable information.
+- Exchange request management links, management credentials, or browser local storage contents.
+- Passkeys, recovery codes, cookies, session tokens, or Turnstile tokens.
+- Secrets, tokens, or complete request headers from Cloudflare, GitHub, or other services.
+- Undisclosed security vulnerability details or directly exploitable reproduction steps.
 
-如果问题涉及安全漏洞、凭据泄露或隐私风险，请勿创建公开 Issue。请通过 [维护者 GitHub 主页](https://github.com/BennettChina) 提供的信息私下联系，并仅描述必要的复现信息。
+If an issue involves a security vulnerability, credential exposure, or privacy risk, do not create a public issue. Contact the maintainers privately using the information on the [maintainer's GitHub profile](https://github.com/BennettChina) and share only the minimum reproduction details necessary.
 
-## 反馈范围
+## Feedback Scope
 
-适合在本仓库反馈：
+Appropriate for this repository:
 
-- 发布、搜索、匹配、管理或举报流程异常。
-- 卡牌或服务器/区域目录错误。
-- 页面显示、响应式布局、键盘操作或无障碍问题。
-- 翻译、文案和跨语言行为问题。
-- 与产品边界一致的新功能或易用性建议。
+- Problems with publishing, searching, matching, managing, or reporting exchange requests.
+- Incorrect card or server/region catalog data.
+- Page rendering, responsive layout, keyboard operation, or accessibility problems.
+- Translation, copywriting, and cross-language behavior issues.
+- Feature or usability suggestions that align with the product boundaries.
 
-不属于本仓库处理范围：
+Outside the scope of this repository:
 
-- 游戏账号、游戏内好友、交易纠纷或玩家诚信问题。
-- 米哈游或《原神》官方服务相关问题。
-- 强制买卖、担保、站内私信、支付或跨区匹配等与产品边界冲突的需求。
-- 需要提供其他玩家 UID 或私密通信记录的调查请求。
+- Game accounts, in-game friends, trade disputes, or player integrity issues.
+- Issues related to official miHoYo or Genshin Impact services.
+- Requests that conflict with the product boundaries, such as enforced buying or selling, escrow, in-site messaging, payments, or cross-region matching.
+- Investigation requests that require another player's UID or private communication records.
 
-## 处理说明
+## Issue Handling
 
-维护者会根据可复现性、影响范围、产品边界和安全风险进行确认与排序。Issue 创建不代表一定实现或承诺固定完成时间。已确认的问题会在讨论中补充状态或结论。
+Maintainers confirm and prioritize issues based on reproducibility, impact, product boundaries, and security risk. Creating an issue does not guarantee that it will be implemented or that a fixed completion date will be provided. Confirmed issues will have their status or conclusions added to the discussion.
 
-## 相关链接
+## Links
 
-- [访问 Luna Glance](https://luna.mihoyo.cv/)
-- [本仓库 Issue 列表](https://github.com/BennettChina/luna-glance-feedback/issues)
+- [Visit Luna Glance](https://luna.mihoyo.cv/)
+- [Issues in This Repository](https://github.com/BennettChina/luna-glance-feedback/issues)
