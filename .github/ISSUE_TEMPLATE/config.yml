@@ -1,7 +1,7 @@
 blank_issues_enabled: false
 contact_links:
   - name: 访问 Luna Glance
-    url: https://luna.mihoyo.cv/
+    url: https://lunaglance.app/
     about: 使用卡牌交换工具，或复现和确认问题。
   - name: 私下报告安全问题
     url: https://github.com/BennettChina

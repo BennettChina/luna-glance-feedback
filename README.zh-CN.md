@@ -6,7 +6,7 @@
 
 Luna Glance 是面向《原神》玩家的非官方“月谕圣牌”交换工具，用于匿名发布、查找并匹配卡牌交换需求。项目与米哈游、HoYoverse 无关。
 
-网站地址：<https://luna.mihoyo.cv/>
+网站地址：<https://lunaglance.app/>
 
 ## 仓库职责
 
@@ -83,5 +83,5 @@ GitHub Issue 是公开内容。提交前请删除或遮挡所有敏感信息，�
 
 ## 相关链接
 
-- [访问 Luna Glance](https://luna.mihoyo.cv/)
+- [访问 Luna Glance](https://lunaglance.app/)
 - [本仓库 Issue 列表](https://github.com/BennettChina/luna-glance-feedback/issues)

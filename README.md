@@ -6,7 +6,7 @@ This repository is the public feedback and feature request tracker for Luna Glan
 
 Luna Glance is an unofficial Lunar Arcanum card exchange tool for Genshin Impact players. It lets players anonymously publish, find, and match card exchange requests. The project is not affiliated with miHoYo or HoYoverse.
 
-Website: <https://luna.mihoyo.cv/>
+Website: <https://lunaglance.app/>
 
 ## Repository Scope
 
@@ -83,5 +83,5 @@ Maintainers confirm and prioritize issues based on reproducibility, impact, prod
 
 ## Links
 
-- [Visit Luna Glance](https://luna.mihoyo.cv/)
+- [Visit Luna Glance](https://lunaglance.app/)
 - [Issues in This Repository](https://github.com/BennettChina/luna-glance-feedback/issues)
